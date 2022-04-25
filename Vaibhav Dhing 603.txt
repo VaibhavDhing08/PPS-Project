@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{int age, pullups,pushups;
+float height;
+printf("Selections for ARMY\n");
+printf("Enter your Age:-\n");
+scanf("%d",&age);
+printf("Enter your Height:-\n");
+scanf("%f",&height);
+printf("Number of pullups done:-\n");
+scanf("%d",&pullups);
+printf("Number of pushups done:-\n");
+scanf("%d",&pushups);
+if (age>=18 && height>=5 && pullups>=10 && pushups>=40)
+{printf("You entered your age as: %d yrs\n",age);
+printf("You entered your height as: %.1f ft\n",height);
+printf("Your Pullups count is: %d\n",pullups);
+printf("Your Pushups count is: %d\n",pushups);
+printf("Congratulations!! You are selected.");
+}    
+else
+printf("Sorry!!..You are not selected.");
+  return 0;
+
+}
